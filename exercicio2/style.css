@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid black;
+    width: 100vw;
+}
+
+main{
+    position: absolute;
+    height: 100vh;
+    top: 60px;
+    left: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5vh;
+    width: 100vw;
+    border-top: 4px solid black;
+}

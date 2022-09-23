@@ -16,6 +16,7 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
   }
   
   section{
@@ -29,10 +30,30 @@
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+
+  .clic:active{
+    background-color: green;
+  }
+
+  footer:hover{
+    background-color: yellow;
+  }
+
+  .texto-centralizado{
+    text-align: center;
+  }
+
+  .inferior-direito{
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
